@@ -265,7 +265,7 @@ if (message.content.startsWith(adminprefix + 't')) {
  
    
    client.on("message", message => {
- if (message.content === "Rhelp") {
+ if (message.content === "$help") {
   const embed = new Discord.RichEmbed() 
       .setColor("RANDOM")
       .setDescription(`

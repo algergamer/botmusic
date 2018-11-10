@@ -236,8 +236,8 @@ function play(guild, song) {
 }//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
  
 
-const adminprefix = "R";
-const devs = ['502526154323001364' , '336773905043685390' , ''];
+const adminprefix = "$";
+const devs = ['448590558160748545' , '466011381963948039' , ''];
 client.on('message', message => {//for dev
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
